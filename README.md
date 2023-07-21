@@ -26,10 +26,10 @@ The script accepts the following option:
 - The links will be printed in green to easily distinguish them from other output.
 
 ## Screenshots
-![Screenshot_2023-07-21_18-34-08.png](screenshots%2FScreenshot_2023-07-21_18-34-08.png)
+![Screenshot_2023-07-21_18-34-08.png](screenshots/Screenshot_2023-07-21_18-34-08.png)
 
 ## Notes
-- The script utilizes the requests library to make HTTP requests and re (regular expressions) to extract links from the HTML content.
+- The script utilizes requests library to make HTTP requests and re (regular expressions) to extract links from the HTML content.
 - The scanning process is recursive, meaning it will follow each link to discover more links until it exhausts all possibilities or the user interrupts the program using `ctrl + c`.
 - If an invalid URL or connection error is encountered for a particular link, the script will gracefully handle the error and continue scanning other links.
 

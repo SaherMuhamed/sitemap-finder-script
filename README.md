@@ -17,6 +17,14 @@ To use the **"Website Spider Scanner,"** follow these steps:
     ```
 4. Replace <target_url> with the URL of the website you want to scan.
 
+## Key Features
+- **URL Crawling:** The spider scanner starts from a specified target URL and recursively follows each link found on the page, building a comprehensive map of the website's link structure.
+- **URL Extraction:** The script extracts links from the HTML content of each page using regular expressions. This allows the spider to identify URLs regardless of the page's complexity or structure.
+- **URL Normalization:** The scanner uses the urllib.parse.urljoin function to normalize extracted links and ensure they are complete URLs. It handles relative URLs, making sure they are combined with the base URL appropriately.
+- **Command-line Interface (CLI):** The scanner provides a CLI for easy usage. Users can specify the target URL using the -u or --url option, making it straightforward to start scanning any website.
+- **Colorful Output:** The script uses the colorama library to print discovered links in green, making them easily distinguishable from other output and enhancing the user experience.
+- **Graceful Error Handling:** The scanner gracefully handles invalid URLs and connection errors, allowing it to continue scanning other links even if it encounters issues with specific URLs.
+
 ## Options
 The script accepts the following option:
 - `-u`, `--url`: Specify the URL of the target website you want to scan. Make sure to include the protocol (e.g., https://) in the URL.

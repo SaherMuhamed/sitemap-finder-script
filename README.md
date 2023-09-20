@@ -32,7 +32,7 @@ To start use the script, follow these steps:
 - The links will be printed in green to easily distinguish them from other output.
 
 ## Screenshots
-![](screenshots/Screenshot_2023-07-21_18-34-08.png)
+![](https://github.com/SaherMuhamed/sitemap-finder-script/blob/main/screenshots/Screenshot%20from%202023-09-20%2016-49-37.png)
 
 ## Notes
 - The script utilizes requests library to make HTTP requests and re (regular expressions) to extract links from the HTML content.

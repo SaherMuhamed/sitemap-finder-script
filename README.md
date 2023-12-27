@@ -32,7 +32,7 @@ To start use the script, follow these steps:
 - The links will be printed in green to easily distinguish them from other output.
 
 ## Screenshots
-![](https://github.com/SaherMuhamed/sitemap-finder-script/blob/main/screenshots/Screenshot%20from%202023-09-20%2016-49-37.png)
+![](https://github.com/SaherMuhamed/sitemap-finder-script/blob/main/screenshots/Screenshot%20from%202023-12-27%2006-06-11.png)
 
 ## Notes
 - The script utilizes requests library to make HTTP requests and re (regular expressions) to extract links from the HTML content.
@@ -41,6 +41,3 @@ To start use the script, follow these steps:
 
 ## Disclaimer
 This script is intended for educational and ethical use only. You should have permission to scan and access the target website. Unauthorized scanning of websites may violate the law and can lead to legal consequences. Use it responsibly and at your own risk.
-
-## Author
-The "Website Spider Scanner" script was developed by **Saher Muhamed**.

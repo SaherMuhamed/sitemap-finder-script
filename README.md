@@ -1,4 +1,5 @@
-# Sitemap Scanner
+# Website Links Extractor
+
 A Python script that crawls through a target website and extracts all the links it can find. It then recursively follows each link to extract more links, creating a spider-like structure. The script is designed to scan websites and display all the discovered links on the console.
 
 ## Requirements
@@ -12,7 +13,7 @@ To start use the script, follow these steps:
 2. Open a terminal or command prompt and navigate to the directory where the script is located.
 3. Run the script using the following command:
     ```commandline
-    python3 sitemap_finder.py <target_url>
+    python3 sExtractor.py --url <target_url>
     ```
 4. Replace <target_url> with the URL of the website you want to scan.
 
@@ -32,7 +33,7 @@ To start use the script, follow these steps:
 - The links will be printed in green to easily distinguish them from other output.
 
 ## Screenshots
-![](https://github.com/SaherMuhamed/sitemap-finder-script/blob/main/screenshots/Screenshot%20from%202023-12-27%2006-06-11.png)
+![](https://github.com/SaherMuhamed/sitemap-finder-script/blob/main/screenshots/Screenshot_2024-06-17.png)
 
 ## Notes
 - The script utilizes requests library to make HTTP requests and re (regular expressions) to extract links from the HTML content.
@@ -41,3 +42,9 @@ To start use the script, follow these steps:
 
 ## Disclaimer
 This script is intended for educational and ethical use only. You should have permission to scan and access the target website. Unauthorized scanning of websites may violate the law and can lead to legal consequences. Use it responsibly and at your own risk.
+
+### Updates
+- `v2.0.0 - 17/06/2024`
+  1. increase crawling functionality by adding recursive crawling
+  2. saves external and internal links in a text files for further uses (create directory called `extracted_links` first)
+  3. adding `-m or --max-urls` option to determine how depth you want the crawler to crawl
